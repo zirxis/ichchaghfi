@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ايش شغفي؟ - اكتشف تخصصك المثالي</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- الصفحة الرئيسية -->
+    <div id="home-page" class="page active">
+        <div class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            <span class="gradient-text">ايش شغفي؟</span>
+                        </h1>
+                        <p class="hero-subtitle">اكتشف المجال الذي يناسب شخصيتك ومهاراتك</p>
+                        <p class="hero-description">
+                            أجب على مجموعة من الأسئلة البسيطة واحصل على تحليل شخصي مفصل 
+                            مع اقتراحات المجالات المناسبة لك
+                        </p>
+                        <button class="cta-button" onclick="startQuiz()">
+                            <i class="fas fa-play"></i>
+                            ابدأ الاختبار الآن
+                        </button>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="floating-icons">
+                            <div class="icon-item" style="--delay: 0s">
+                                <i class="fas fa-stethoscope"></i>
+                                <span class="icon-label">🩺</span>
+                            </div>
+                            <div class="icon-item" style="--delay: 0.5s">
+                                <i class="fas fa-laptop-code"></i>
+                                <span class="icon-label">💻</span>
+                            </div>
+                            <div class="icon-item" style="--delay: 1s">
+                                <i class="fas fa-cogs"></i>
+                                <span class="icon-label">⚙️</span>
+                            </div>
+                            <div class="icon-item" style="--delay: 1.5s">
+                                <i class="fas fa-users"></i>
+                                <span class="icon-label">📚</span>
+                            </div>
+                            <div class="icon-item" style="--delay: 2s">
+                                <i class="fas fa-chart-line"></i>
+                                <span class="icon-label">💰</span>
+                            </div>
+                            <div class="icon-item" style="--delay: 2.5s">
+                                <i class="fas fa-flask"></i>
+                                <span class="icon-label">🧪</span>
+                            </div>
+                            <div class="icon-item" style="--delay: 3s">
+                                <i class="fas fa-paint-brush"></i>
+                                <span class="icon-label">🎨</span>
+                            </div>
+                            <div class="icon-item" style="--delay: 3.5s">
+                                <i class="fas fa-plane"></i>
+                                <span class="icon-label">✈️</span>
+                            </div>
+                            <div class="icon-item" style="--delay: 4s">
+                                <i class="fas fa-seedling"></i>
+                                <span class="icon-label">🌿</span>
+                            </div>
+                            <div class="icon-item" style="--delay: 4.5s">
+                                <i class="fas fa-balance-scale"></i>
+                                <span class="icon-label">⚖️</span>
+                            </div>
+                            <div class="icon-item" style="--delay: 5s">
+                                <i class="fas fa-tools"></i>
+                                <span class="icon-label">🔧</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="features-section">
+            <div class="container">
+                <h2 class="section-title">لماذا تختار اختبارنا؟</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>تحليل ذكي</h3>
+                        <p>خوارزمية متطورة تحلل إجاباتك لتقدم لك أفضل التوصيات</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>شامل ومفصل</h3>
+                        <p>25 سؤالاً متنوعاً يغطي جميع جوانب شخصيتك ومهاراتك</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h3>مجالات متنوعة</h3>
+                        <p>نغطي 11 مجالاً رئيسياً في مختلف التخصصات العلمية والعملية</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h3>نتائج دقيقة</h3>
+                        <p>نظام تقييم متطور يضمن دقة النتائج وملاءمتها لشخصيتك</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="specializations-section">
+            <div class="container">
+                <h2 class="section-title">المجالات المتاحة</h2>
+                <div class="specializations-grid">
+                    <div class="spec-card">
+                        <div class="spec-icon">🩺</div>
+                        <h3>المجال الطبي والصحي</h3>
+                        <p>الطب، التمريض، الصيدلة، العلاج الطبيعي</p>
+                    </div>
+                    <div class="spec-card">
+                        <div class="spec-icon">💻</div>
+                        <h3>المجال التقني والتكنولوجي</h3>
+                        <p>البرمجة، الذكاء الاصطناعي، الأمن السيبراني</p>
+                    </div>
+                    <div class="spec-card">
+                        <div class="spec-icon">⚙️</div>
+                        <h3>الهندسة والتخصصات الصناعية</h3>
+                        <p>الهندسة الميكانيكية، الكهربائية، المدنية</p>
+                    </div>
+                    <div class="spec-card">
+                        <div class="spec-icon">📚</div>
+                        <h3>العلوم الإنسانية والاجتماعية</h3>
+                        <p>علم النفس، التعليم، العلاقات العامة</p>
+                    </div>
+                    <div class="spec-card">
+                        <div class="spec-icon">💰</div>
+                        <h3>الاقتصاد وإدارة الأعمال</h3>
+                        <p>إدارة المشاريع، المحاسبة، التسويق</p>
+                    </div>
+                    <div class="spec-card">
+                        <div class="spec-icon">🧪</div>
+                        <h3>العلوم الأساسية والطبيعية</h3>
+                        <p>الفيزياء، الكيمياء، الأحياء، الرياضيات</p>
+                    </div>
+                    <div class="spec-card">
+                        <div class="spec-icon">🎨</div>
+                        <h3>الفنون والتصميم</h3>
+                        <p>التصميم الجرافيكي، الفنون الجميلة</p>
+                    </div>
+                    <div class="spec-card">
+                        <div class="spec-icon">✈️</div>
+                        <h3>السياحة والطيران والخدمات</h3>
+                        <p>إدارة الفنادق، الطيران المدني، السياحة</p>
+                    </div>
+                    <div class="spec-card">
+                        <div class="spec-icon">🌿</div>
+                        <h3>الزراعة والبيئة</h3>
+                        <p>الزراعة، علوم البيئة، الهندسة البيئية</p>
+                    </div>
+                    <div class="spec-card">
+                        <div class="spec-icon">⚖️</div>
+                        <h3>القانون والشريعة</h3>
+                        <p>القانون، الشريعة الإسلامية، العدالة</p>
+                    </div>
+                    <div class="spec-card">
+                        <div class="spec-icon">🔧</div>
+                        <h3>التخصصات المهنية والفنية</h3>
+                        <p>المهن الحرفية، التقنية، الصناعية</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- صفحة الأسئلة -->
+    <div id="quiz-page" class="page">
+        <div class="quiz-container">
+            <div class="quiz-header">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <div class="question-counter">
+                    <span id="current-question">1</span> من <span id="total-questions">25</span>
+                </div>
+            </div>
+            
+            <div class="question-card">
+                <h2 class="question-text" id="question-text"></h2>
+                <div class="answers-grid">
+                    <button class="answer-btn" data-answer="نعم">
+                        <i class="fas fa-check"></i>
+                        نعم
+                    </button>
+                    <button class="answer-btn" data-answer="ممكن">
+                        <i class="fas fa-question"></i>
+                        ممكن
+                    </button>
+                    <button class="answer-btn" data-answer="أحيانًا">
+                        <i class="fas fa-clock"></i>
+                        أحيانًا
+                    </button>
+                    <button class="answer-btn" data-answer="لا">
+                        <i class="fas fa-times"></i>
+                        لا
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- صفحة النتائج -->
+    <div id="results-page" class="page">
+        <div class="results-container">
+            <div class="results-header">
+                <h1 class="results-title">نتائجك جاهزة!</h1>
+                <div class="celebration-icon">
+                    <i class="fas fa-trophy"></i>
+                </div>
+            </div>
+            
+            <div class="result-card">
+                <h2 class="recommended-field" id="recommended-field"></h2>
+                <div class="analysis-text" id="analysis-text"></div>
+                
+                <div class="action-buttons">
+                    <button class="action-btn primary" onclick="restartQuiz()">
+                        <i class="fas fa-redo"></i>
+                        إعادة الاختبار
+                    </button>
+                    <button class="action-btn secondary" onclick="shareResults()">
+                        <i class="fas fa-share"></i>
+                        مشاركة النتائج
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+			<footer class="footer">
+    <div class="container">
+        <div class="social-links">
+            <a href="https://www.instagram.com/zirxiz.o/?igsh=MWZkZG40ZHg5OHprMA%3D%3D" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://t.me/zirxiss" class="social-icon" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+            <a href="https://x.com/zirxis" class="social-icon" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://api.whatsapp.com/send/?phone=%2B213667432458&text&type=phone_number&app_absent=0" class="social-icon" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <p class="copyright">&copy; 2025 جميع الحقوق محفوظة لـ zirxis (أسامة)</p>
+    </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
